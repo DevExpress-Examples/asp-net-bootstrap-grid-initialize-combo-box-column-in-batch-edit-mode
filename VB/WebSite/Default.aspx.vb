@@ -37,7 +37,6 @@ Partial Public Class _Default
 		If e.Value Is Nothing Then
 			Return
 		End If
-'INSTANT VB NOTE: The variable id was renamed since Visual Basic does not handle local variables named the same as class members well:
 		Dim id_Renamed As String = e.Value.ToString()
 		Dim editor As BootstrapComboBox = TryCast(source, BootstrapComboBox)
 		Dim typeID As Integer = GetCurrentItemTypeID()
