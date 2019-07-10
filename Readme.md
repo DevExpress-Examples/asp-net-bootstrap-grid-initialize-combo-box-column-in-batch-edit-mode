@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # BootstrapGridView  - Batch Edit - How to initialize a ComboBox column based on a row.
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/193504356/)**
+<!-- run online end -->
 
 By default, the grid binds each ComboBox column to the full data source. This can cause performance problems in some situations. To avoid them, you can use the EditItemTemplate and initialize each route, as shown in this sample. A similar approach is demonstrated in the [ASPxGridView - Batch editing - How to use the EditItemTemplate](https://www.devexpress.com/Support/Center/Question/Details/T618940/aspxgridview-batch-editing-how-to-use-edititemtemplate) example. 
 
