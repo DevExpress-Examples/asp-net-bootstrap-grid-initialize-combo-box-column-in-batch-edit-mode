@@ -13,7 +13,7 @@ Follow the steps below to initialize a combo box column in batch edit mode:
 
 1. Add a [BootstrapGridView](https://docs.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapGridView) control to your page and populate it with columns.
 
-2. Create a combo box column and and specify its [PropertiesComboBox](https://docs.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapGridViewComboBoxColumn.PropertiesComboBox) settings for the view mode. To bind a combo box column to a data source, handle the column's [ItemRequestedByValue](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemRequestedByValue) and [ItemRequestedByFilterCondition](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemsRequestedByFilterCondition) events and filter the data source.
+2. Create a combo box column and specify its [PropertiesComboBox](https://docs.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapGridViewComboBoxColumn.PropertiesComboBox) settings for the view mode. To bind a combo box column to a data source, handle the column's [ItemRequestedByValue](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemRequestedByValue) and [ItemRequestedByFilterCondition](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemsRequestedByFilterCondition) events and filter the data source.
 
     ```aspx
     <dx:BootstrapGridViewComboBoxColumn FieldName="YourFieldName" ...>
