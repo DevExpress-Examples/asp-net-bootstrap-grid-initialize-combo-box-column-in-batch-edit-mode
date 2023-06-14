@@ -44,7 +44,7 @@ Follow the steps below to initialize a combo box column in batch edit mode:
     }
     ```
 
-3. Specify the column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) property, add a [BootstrapComboBox](https://docs.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapComboBox) control to the template to use it in edit mode, and enable its [EnableCallbackMode]() property. Handle the combo box's [ItemsRequestedByFilterCondition](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemsRequestedByFilterCondition) and [ItemRequestedByValue](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemRequestedByValue) and filter the data source based on the values of other fields. 
+3. Specify the column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) property, add a [BootstrapComboBox](https://docs.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapComboBox) control to the template to use it in edit mode, and enable its [EnableCallbackMode]() property. Handle the combo box's server-side [ItemsRequestedByFilterCondition](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemsRequestedByFilterCondition) and [ItemRequestedByValue](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox.ItemRequestedByValue) events and filter the data source based on the values of other fields. 
 
     ```aspx
     <dx:BootstrapGridViewComboBoxColumn Caption="ItemSubType" FieldName="SubTypeID" VisibleIndex="4">
