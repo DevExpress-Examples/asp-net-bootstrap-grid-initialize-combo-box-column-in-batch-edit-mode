@@ -84,7 +84,7 @@ Follow the steps below to initialize a combo box column in batch edit mode:
     }
     ```
 
-4. To initialize the combo box control on the client, handle the grid's `BatchEditStartEditing` and `BatchEditEndEditing` event as demonstrated in the following example: [Grid View for ASP.NET Web Forms - How to implement an edit item template in batch mode](https://github.com/DevExpress-Examples/asp-net-web-forms-grid-edit-item-template-in-batch-mode).
+4. To initialize the combo box control on the client, handle the grid's `BatchEditStartEditing` and `BatchEditEndEditing` events as demonstrated in the following example: [Grid View for ASP.NET Web Forms - How to implement an edit item template in batch mode](https://github.com/DevExpress-Examples/asp-net-web-forms-grid-edit-item-template-in-batch-mode).
 
     ```js
     function OnBatchEditStartEdit(s, e) {
