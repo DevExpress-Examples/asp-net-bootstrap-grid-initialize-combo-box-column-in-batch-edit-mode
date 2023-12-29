@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Bootstrap - How to initialize a combo box column in batch edit mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/193504356/)**
-<!-- run online end -->
 
 This example demonstrates how to create a combo box column's edit item template to bind the column to a filtered data source and configure the grid's cell edit functionality in batch mode.
 
